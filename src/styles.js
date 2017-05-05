@@ -8,19 +8,30 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: 1050,
     height: 600,
-    backgroundColor: '#fefefe',
-    borderWidth: 2,
-    borderRadius: 4,
+    borderWidth: 0,
+    borderRadius: 0,
     overflowY: 'scroll',
+    backgroundColor: '#90D26D',
   },
-  text: {
+
+  title: {
     fontFamily: 'Helvetica',
     fontSize: 52,
     lineHeight: 52,
-    color: '#f1622b',
+    color: 'black',
     textAlign: 'center',
     fontWeight: 'bold',
-  }
+    marginBottom: 12
+  },
+
+  text: {
+    fontFamily: 'Helvetica',
+    fontSize: 40,
+    lineHeight: 40,
+    color: 'black',
+    textAlign: 'center',
+    fontWeight: 'normal',
+  },
 });
 
 export default styles;
