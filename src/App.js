@@ -11,7 +11,7 @@ const App = () => (
   <View style={styles.artboard}>
     <View style={styles.container} name="Front">
       <Image resizeMode='contain'
-        source="https://dummyimage.com/400x400.png"
+        source="https://image.ibb.co/eAxngQ/goingsunny_icon.png"
         style={{
           height: 250, width: 250,
           borderRadius: 250,
@@ -19,13 +19,17 @@ const App = () => (
         }}
       />
       <Text style={styles.title}>Goingsunny</Text>
-      <Text style={styles.text}>Let's speak english!</Text>
+      <Text style={styles.text}>Fake it `til you make it !</Text>
     </View>
 
     <View style={styles.containerBack} name="Back">
-      <Text style={styles.textBack}>Fake it `til you make it!</Text>
-      <Text style={styles.textBack}>Học tiếng anh mỗi ngày</Text>
-      <Text style={styles.textBack}>guide: https://bit.ly/gosunny</Text>
+      <Text style={styles.textBack}>* Học tiếng anh mỗi ngày bằng các đoạn hội thoại.</Text>
+      <Text style={styles.textBack}>* Luyện tập giao tiếp với hot gơ, trai đẹp.</Text>
+      <Text style={styles.textBack}>* Học trên máy tính hay điện thoại đều được.</Text>
+      <Text style={styles.textBack}>* Tự tin giao tiếp với người bạn địa.</Text>
+      <Text style={styles.textBack}>* Đi du lịch nước ngoài, tại sao không?</Text>
+      <Text style={styles.textBack}>* Có tính phí nhưng hiện tại thì chưa.</Text>
+      <Text style={styles.textBack}>* LET GO - bit.ly/gsn4</Text>
     </View>
   </View>
 );

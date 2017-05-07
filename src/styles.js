@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
 
   title: {
     fontFamily: 'Helvetica',
-    fontSize: 52,
-    lineHeight: 52,
+    fontSize: 56,
+    lineHeight: 56,
     color: 'black',
     textAlign: 'center',
     fontWeight: 'bold',
@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
 
   text: {
     fontFamily: 'Helvetica',
-    fontSize: 40,
-    lineHeight: 40,
+    fontSize: 48,
+    lineHeight: 48,
     color: 'black',
     textAlign: 'center',
     fontWeight: 'normal',
@@ -53,28 +53,30 @@ const styles = StyleSheet.create({
     width: w,
     height: h,
     overflowY: 'hidden',
-    backgroundColor: 'gray',
+    backgroundColor: '#539DDB',
+    color: 'white',
     borderWidth: 2,
     borderRadius: 24,
     borderColor: 'gray',
-    padding: 48
+    padding: 48,
+    paddingLeft: 60,
   },
 
   titleBack: {
     fontFamily: 'Helvetica',
     fontSize: 52,
     lineHeight: 52,
-    color: 'black',
+    color: 'white',
     textAlign: 'left',
     fontWeight: 'bold',
-    marginBottom: 12
+    marginBottom: 12,
   },
 
   textBack: {
     fontFamily: 'Helvetica',
     fontSize: 40,
-    lineHeight: 50,
-    color: 'black',
+    lineHeight: 64,
+    color: 'white',
     textAlign: 'left',
     fontWeight: 'normal',
   },
