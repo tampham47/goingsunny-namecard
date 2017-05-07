@@ -1,26 +1,19 @@
-# react-sketchapp-boilerplate
+# Goingsunny name card
+This is a funny name card that created by `react-sketchapp-boilerplate`
 
-A boilerplate project to quickly get you up and running.
+![alt text][screen]
+
+[screen]: ./public/screenshot-sketch.png "goingsunny name card"
+
 
 ## Usage
 
-* Clone this repo -
-    ```bash
-    git clone https://github.com/brijeshb42/react-sketchapp-boilerplate.git your-project-name
-    cd your-project-name
-    rm -rf .git
+Run the project
 
-* Install npm dependencies -
-    ```bash
-    npm install
-    ```
-
-* Run the project -
-
-    ```bash
-    npm run render
-    ```
+```bash
+yarn run render
+```
 
 > Make sure the Sketch app is already running and you have an empty project open.
 
-`README` will be updated with more commands soon.
+For more information you can take a look from origin repo [react-sketchapp-boilerplate](https://github.com/brijeshb42/react-sketchapp-boilerplate)
